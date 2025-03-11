@@ -79,12 +79,12 @@
       "startBlock": 15317931
     },
     "MetaMorphoFactoryV11": {
-      "address": "0x1beE9D41AE95162483c80fE2eB91d147F5Cf05Ee",
-      "startBlock": 15318061
+      "address": "0x27D4Af0AC9E7FDfA6D0853236f249CC27AE79488",
+      "startBlock": 15318007
     },
     "MetaMorphoFactory": {
       "address": "0x0000000000000000000000000000000000000000",
-      "startBlock": 15318061
+      "startBlock": 15318007
     },
     "PublicAllocator": {
       "address": "0x37a888192165fC39884f87c64E2476BfD2C09675",
@@ -97,12 +97,12 @@
       "startBlock": 4078776
     },
     "MetaMorphoFactoryV11": {
-      "address": "0xb00123B1058c13559408b9D609eD417617f588eD",
-      "startBlock": 4078776
+      "address": "0xd3f39505d0c48AFED3549D625982FdC38Ea9904b",
+      "startBlock": 4078830
     },
     "MetaMorphoFactory": {
       "address": "0x0000000000000000000000000000000000000000",
-      "startBlock": 4078776
+      "startBlock": 4078830
     },
     "PublicAllocator": {
       "address": "0x85416891752a6B81106c1C2999AE1AF5d8Cd3357",
@@ -133,12 +133,12 @@
       "startBlock": 12842868
     },
     "MetaMorphoFactoryV11": {
-      "address": "0x587605481C744876a08CD475ECff5e8cD853153B",
-      "startBlock": 12842938
+      "address": "0x56b65742ade55015e6480959808229Ad6dbc9295",
+      "startBlock": 12842903
     },
     "MetaMorphoFactory": {
       "address": "0x0000000000000000000000000000000000000000",
-      "startBlock": 12842938
+      "startBlock": 12842903
     },
     "PublicAllocator": {
       "address": "0x8a7f671E45E51dE245649Cf916cA0256FB8a9927",
