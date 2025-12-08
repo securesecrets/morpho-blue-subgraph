@@ -37,6 +37,25 @@
       "startBlock": 13979545
     }
   },
+  "celo": {
+    "MorphoBlue": {
+      "address": "0xd24ECdD8C1e0E57a4E26B1a7bbeAa3e95466A569",
+      "startBlock": 40249329
+
+    },
+    "MetaMorphoFactory": {
+      "address": "0x0000000000000000000000000000000000000000",
+      "startBlock": 40249329
+    },
+    "MetaMorphoFactoryV11": {
+      "address": "0x6870aA9f66C1e5Efe8Dbe8730e86E9e91f688275",
+      "startBlock": 40249329
+    },
+    "PublicAllocator": {
+      "address": "0x3Fe12193D178B76BaF4e23a083A64e49ACDE3188",
+      "startBlock": 40249329
+    }
+  },
   "optimism": {
     "MorphoBlue": {
       "address": "0xce95AfbB8EA029495c66020883F87aaE8864AF92",

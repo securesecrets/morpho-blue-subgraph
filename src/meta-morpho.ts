@@ -233,7 +233,7 @@ export function handleOwnershipTransferred(
   event: OwnershipTransferredEvent
 ): void {
   const mm = loadMetaMorpho(event.address);
-  mm.owner = event.params.newOwner;
+  mm.owner = new AccountManager(event.params.newOwner).getAccount().id;
   mm.save();
 }
 

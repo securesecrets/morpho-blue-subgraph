@@ -9,6 +9,9 @@ export function getPublicAllocatorAddress(): Address {
   if (network == "base") {
     return Address.fromString("0xA090dD1a701408Df1d4d0B85b716c87565f90467");
   }
+  if (network == "celo") {
+    return Address.fromString("0x3Fe12193D178B76BaF4e23a083A64e49ACDE3188");
+  }
   if (network == "optimism") {
     return Address.fromString("0x0d68a97324E602E02799CD83B42D337207B40658");
   }
@@ -39,7 +42,7 @@ export function getPublicAllocatorAddress(): Address {
   if (network == "corn") {
     return Address.fromString("0xDFde06e2B2A2D718eE5560b73dA4F830E56A2f10");
   }
-  if(network == "hemi") {
+  if (network == "hemi") {
     return Address.fromString("0x4107Ea1746909028d6212B315dE5fE9538F9eb39");
   }
 
