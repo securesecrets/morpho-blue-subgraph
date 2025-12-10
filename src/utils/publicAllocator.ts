@@ -12,6 +12,9 @@ export function getPublicAllocatorAddress(): Address {
   if (network == "celo") {
     return Address.fromString("0x3Fe12193D178B76BaF4e23a083A64e49ACDE3188");
   }
+  if (network == "tac") {
+    return Address.fromString("0x414247afcf1fE3b94C617e7E3A7adB81D8D3208F");
+  }
   if (network == "optimism") {
     return Address.fromString("0x0d68a97324E602E02799CD83B42D337207B40658");
   }
