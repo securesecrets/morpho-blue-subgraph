@@ -20,6 +20,7 @@ export namespace Network {
   export const CORN = "CORN";
   export const HEMI = "HEMI";
   export const TAC = "TAC";
+  export const SEI = "SEI";
   export const AURORA = "AURORA";
   export const AVALANCHE = "AVALANCHE";
   export const BOBA = "BOBA";

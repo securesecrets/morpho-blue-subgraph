@@ -12,3 +12,4 @@ yarn deploy:studio:ink -l $VERSION
 yarn deploy:studio:scroll -l $VERSION
 yarn deploy:studio:celo -l $VERSION
 yarn deploy:studio:tac -l $VERSION
+yarn deploy:studio:sei -l $VERSION

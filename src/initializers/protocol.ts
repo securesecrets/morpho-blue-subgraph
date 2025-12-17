@@ -24,6 +24,9 @@ const getMorphoBlueAddress = (): Address => {
   if (network == "tac") {
     return Address.fromString("0x918B9F2E4B44E20c6423105BB6cCEB71473aD35c");
   }
+  if (network == "sei") {
+    return Address.fromString("0xc9cDAc20FCeAAF616f7EB0bb6Cd2c69dcfa9094c");
+  }
   if (network == "optimism") {
     return Address.fromString("0xce95AfbB8EA029495c66020883F87aaE8864AF92");
   }

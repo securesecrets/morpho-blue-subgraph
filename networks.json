@@ -75,6 +75,25 @@
       "startBlock": 853025
     }
   },
+  "sei": {
+    "MorphoBlue": {
+      "address": "0xc9cDAc20FCeAAF616f7EB0bb6Cd2c69dcfa9094c",
+      "startBlock": 169639629
+
+    },
+    "MetaMorphoFactory": {
+      "address": "0x0000000000000000000000000000000000000000",
+      "startBlock": 169639629
+    },
+    "MetaMorphoFactoryV11": {
+      "address": "0x8Dea49ec5bd5AeAc8bcf96B3E187F59354118291",
+      "startBlock": 169639629
+    },
+    "PublicAllocator": {
+      "address": "0xD878509446bE2C601f0f032F501851001B159D6B",
+      "startBlock": 169639629
+    }
+  },
   "optimism": {
     "MorphoBlue": {
       "address": "0xce95AfbB8EA029495c66020883F87aaE8864AF92",
