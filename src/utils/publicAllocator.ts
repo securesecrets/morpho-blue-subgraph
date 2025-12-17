@@ -15,6 +15,9 @@ export function getPublicAllocatorAddress(): Address {
   if (network == "tac") {
     return Address.fromString("0x414247afcf1fE3b94C617e7E3A7adB81D8D3208F");
   }
+  if (network == "sei") {
+    return Address.fromString("0xD878509446bE2C601f0f032F501851001B159D6B");
+  }
   if (network == "optimism") {
     return Address.fromString("0x0d68a97324E602E02799CD83B42D337207B40658");
   }
