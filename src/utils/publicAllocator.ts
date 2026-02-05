@@ -51,6 +51,12 @@ export function getPublicAllocatorAddress(): Address {
   if (network == "hemi") {
     return Address.fromString("0x4107Ea1746909028d6212B315dE5fE9538F9eb39");
   }
+  if (network == "lisk") {
+    return Address.fromString("0xb1E5B1De2a54ab55C412B5ee1E38e46799588103");
+  }
+  if (network == "soneium") {
+    return Address.fromString("0x76f93A21573014Ab7d634D3204818922A234249e");
+  }
 
   return Address.zero();
 }

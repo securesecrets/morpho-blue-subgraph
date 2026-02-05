@@ -21,6 +21,8 @@ export namespace Network {
   export const HEMI = "HEMI";
   export const TAC = "TAC";
   export const SEI = "SEI";
+  export const LISK = "LISK";
+  export const SONEIUM = "SONEIUM";
   export const AURORA = "AURORA";
   export const AVALANCHE = "AVALANCHE";
   export const BOBA = "BOBA";

@@ -36,6 +36,8 @@ enum Network {
   FRAXTAL
   SEI
   TAC
+  LISK
+  SONEIUM
 }
 
 enum ProtocolType {

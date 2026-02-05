@@ -291,5 +291,41 @@
       "address": "0x4107Ea1746909028d6212B315dE5fE9538F9eb39",
       "startBlock": 1188872
     }
+  },
+  "lisk": {
+    "MorphoBlue": {
+      "address": "0x00cD58DEEbd7A2F1C55dAec715faF8aed5b27BF8",
+      "startBlock": 0
+    },
+    "MetaMorphoFactory": {
+      "address": "0x0000000000000000000000000000000000000000",
+      "startBlock": 0
+    },
+    "MetaMorphoFactoryV11": {
+      "address": "0x01dD876130690469F685a65C2B295A90a81BaD91",
+      "startBlock": 0
+    },
+    "PublicAllocator": {
+      "address": "0xb1E5B1De2a54ab55C412B5ee1E38e46799588103",
+      "startBlock": 0
+    }
+  },
+  "soneium": {
+    "MorphoBlue": {
+      "address": "0xE75Fc5eA6e74B824954349Ca351eb4e671ADA53a",
+      "startBlock": 0
+    },
+    "MetaMorphoFactory": {
+      "address": "0x0000000000000000000000000000000000000000",
+      "startBlock": 0
+    },
+    "MetaMorphoFactoryV11": {
+      "address": "0x7026b436f294e560b3C26E731f5cac5992cA2B33",
+      "startBlock": 0
+    },
+    "PublicAllocator": {
+      "address": "0x76f93A21573014Ab7d634D3204818922A234249e",
+      "startBlock": 0
+    }
   }
 }
