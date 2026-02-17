@@ -61,6 +61,12 @@ const getMorphoBlueAddress = (): Address => {
   if (network == "hemi") {
     return Address.fromString("0xa4Ca2c2e25b97DA19879201bA49422bc6f181f42");
   }
+  if (network == "lisk") {
+    return Address.fromString("0x00cD58DEEbd7A2F1C55dAec715faF8aed5b27BF8");
+  }
+  if (network == "soneium") {
+    return Address.fromString("0xE75Fc5eA6e74B824954349Ca351eb4e671ADA53a");
+  }
 
   log.critical("Unknown network {}", [network]);
   return Address.zero();

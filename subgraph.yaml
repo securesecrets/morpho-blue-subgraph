@@ -4,11 +4,11 @@ schema:
 dataSources:
   - kind: ethereum
     name: MorphoBlue
-    network: sei
+    network: soneium
     source:
       abi: MorphoBlue
-      address: "0xc9cDAc20FCeAAF616f7EB0bb6Cd2c69dcfa9094c"
-      startBlock: 169639629
+      address: "0xE75Fc5eA6e74B824954349Ca351eb4e671ADA53a"
+      startBlock: 0
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
@@ -94,11 +94,11 @@ dataSources:
       file: ./src/morpho-blue.ts
   - kind: ethereum
     name: MetaMorphoFactory
-    network: sei
+    network: soneium
     source:
       abi: MetaMorphoFactory
       address: "0x0000000000000000000000000000000000000000"
-      startBlock: 169639629
+      startBlock: 0
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
@@ -135,11 +135,11 @@ dataSources:
       file: ./src/meta-morpho-factory.ts
   - kind: ethereum
     name: MetaMorphoFactoryV11
-    network: sei
+    network: soneium
     source:
       abi: MetaMorphoFactory
-      address: "0x8Dea49ec5bd5AeAc8bcf96B3E187F59354118291"
-      startBlock: 169639629
+      address: "0x7026b436f294e560b3C26E731f5cac5992cA2B33"
+      startBlock: 0
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
@@ -176,11 +176,11 @@ dataSources:
       file: ./src/meta-morpho-factory-v1.1.ts
   - kind: ethereum
     name: PublicAllocator
-    network: sei
+    network: soneium
     source:
       abi: PublicAllocator
-      address: "0xD878509446bE2C601f0f032F501851001B159D6B"
-      startBlock: 169639629
+      address: "0x76f93A21573014Ab7d634D3204818922A234249e"
+      startBlock: 0
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
@@ -214,7 +214,7 @@ dataSources:
 templates:
   - kind: ethereum
     name: MetaMorpho
-    network: sei
+    network: soneium
     source:
       abi: MetaMorpho
     mapping:
@@ -331,7 +331,7 @@ templates:
       file: ./src/meta-morpho.ts
   - kind: ethereum
     name: ChainlinkAggregatorProxy
-    network: sei
+    network: soneium
     source:
       abi: ChainlinkAggregatorProxy
     mapping:
@@ -363,7 +363,7 @@ templates:
       file: ./src/chainlink.ts
   - kind: ethereum
     name: ChainlinkPriceFeed
-    network: sei
+    network: soneium
     source:
       abi: ChainlinkPriceFeed
     mapping:

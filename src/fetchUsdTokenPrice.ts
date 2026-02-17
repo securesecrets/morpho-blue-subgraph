@@ -80,13 +80,20 @@ const eurPriceFeeds = new Map<string, string>();
 
 function fetchPriceFromFeed(feedAddress: Address): BigDecimal {
   const chainlinkPriceFeed = ChainlinkPriceFeed.bind(feedAddress);
-  return chainlinkPriceFeed
-    .latestRoundData()
+  const latestRoundDataResult = chainlinkPriceFeed.try_latestRoundData();
+  if (latestRoundDataResult.reverted) {
+    return BigDecimal.zero();
+  }
+  const decimalsResult = chainlinkPriceFeed.try_decimals();
+  if (decimalsResult.reverted) {
+    return BigDecimal.zero();
+  }
+  return latestRoundDataResult.value
     .getAnswer()
     .toBigDecimal()
     .div(
       BigInt.fromString("10")
-        .pow(chainlinkPriceFeed.decimals() as u8)
+        .pow(decimalsResult.value as u8)
         .toBigDecimal()
     );
 }
