@@ -122,6 +122,7 @@ export function handleAccrueInterest(event: AccrueInterestEvent): void {
 
   if (event.params.feeShares.isZero()) return;
 
+  mm.totalShares = mm.totalShares.plus(event.params.feeShares);
   mm.feeAccrued = mm.feeAccrued.plus(event.params.feeShares);
   const token = new TokenManager(mm.asset, event);
   // Convert to assets
